@@ -1,0 +1,4 @@
+# Verifier dependency for the PySnooper case.
+decorator==5.2.1
+future==1.0.0
+six==1.17.0

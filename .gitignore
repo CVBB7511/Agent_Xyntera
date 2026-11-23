@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+results/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+.ruff_cache/
+.pytest_cache/
+/models/
+/服务器使用说明/
+
+# Keep the local literature library out of version control. The pilot uses
+# the vendored MemTrace source and the project's experiment protocol.
+/paper/*
+!/paper/evidence-scheduling-protocol.md
+!/paper/code_idx/
+/paper/code_idx/*
+!/paper/code_idx/25_memTrace/
+/paper/code_idx/25_memTrace/*
+!/paper/code_idx/25_memTrace/MemTrace-main/
